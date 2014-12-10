@@ -5,12 +5,15 @@ background-color : #03213b;
 }
 
 #bungkus{
-	padding:0 0 0 100px;
+	width:1000px;
+	height:1000px;
+	margin:auto;
 }
 
 #header
 {
-padding: 100px 50px 10px 400px;
+padding: 100px 50px 10px 250px;
+margin:auto;
 }
 
 #kanan, #kiri{
