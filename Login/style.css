@@ -1,0 +1,21 @@
+body{
+background :url('Gambar/doodles.png');
+background-color : #03213b;
+position : relative;
+margin :0;
+}
+
+.center{
+width :1000px;
+margin-top : 200px;
+margin-left : 450px;
+float : center;
+position : relative;
+}
+
+#tombol{
+font-family :myriad pro;
+margin-top : 40px;
+float : center;
+color :#959595;
+}
