@@ -7,29 +7,37 @@
 <body>
 	<div id="warp">
 			<div class="center">	
-						<h1>Your Account</h1>
-						<form	action="login.html"
-								method="POST">
-						<table border="0" width="100%">
-						<tr>
-							<td><label>Nomor Bolt</label></td>
-							<td><input type="text"
-									   name="nb"
-									   value=""/></td>
-						</tr>
-						<tr>
-							<td><label>Password</label></td>
-							<td><input 	type="text"
-										name="password"
-										value=""/></td>
-						</tr>
-						</table>
-						<div id="tombol">
-						<input 	type="submit"
-								name="login"
-								value="Login"/>
-						</div>
-						</form>
+						<div id="contact">
+			<div class="container">
+				<div class="isi">
+					<div id="login-box">
+						<div id="login-container">
+							<h1 style="text-align:center;">Your Account</h1>
+						
+							<form id="login-form"action="login.php" method="POST">
+								<table>
+									<tr>
+										<td><p>Username</p></td>
+									</tr>
+									<tr>
+										<td><input type="text" name="usernamel" placeholder="Enter your username here" /></td>
+									</tr>
+									<tr>
+										<td><p>Password</p></td>
+									</tr>
+									<tr>
+										<td><input type="password" name="password" placeholder="Enter your password"  /></td>
+									</tr>
+									<tr>
+										<td><button type="submit" name="send">Send</button></td>
+									</tr>
+								</table>
+							</form>
+						</div><!--contact-container-->
+					</div><!--contact-box-->
+				</div>
+				</div>
+			</div><!--contact-->
 			</div>
 	</div>
 </body>

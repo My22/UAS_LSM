@@ -1,0 +1,488 @@
+			body{
+				margin:0;
+				padding:0;
+				font-family:Arial, sans-serif;
+			}
+			
+			h1,h2,h3,h4,h5,h6,ul{
+				margin:0;
+				padding:0;
+			}
+			
+			h1{
+				font-size:40px;
+			}
+			
+			a{
+				text-decoration:none;
+			}
+			
+			input{
+				width:250px;
+			}
+			
+			text-area{
+				width:300px;
+				height:50px;
+			}
+			
+			input, textarea{
+				padding:5px;
+				font-family:inherit;
+				font-size:10pt;
+				resize:none;
+			}
+			
+			
+			input:focus, textarea:focus{
+				box-shadow: 0 0 5px 1px white;
+			}
+			
+/*ID PAGE*/
+			#home img{
+				visible:hidden;
+			}
+			
+			#news{
+				min-height:500px;
+			}
+			
+			#about{
+				background-image:url("../gambar/doodles.png");
+				background-color:#F60;
+			}
+			
+			#shop{
+				background-image:url("../gambar/doodles.png");
+				background-color:#F60;
+				min-height:500px;
+			}
+			
+			#store{
+				min-height:500px;
+			}
+			
+/*NAVIGATION*/						
+			#navigation{
+				font-family:Impact, fantasy;
+				width:100%;
+				display:block;
+				position: relative;
+				background-color:white;
+				background-image:url("../gambar/bg-header.jpg");
+				overflow:visible;
+				border-bottom:2px solid gray;
+			}
+			#navigation.f-nav{
+					top:0;
+					position:fixed;
+				}
+			
+			.logo{
+				float:left;
+				display:inline-block;
+				width:127px;
+				height:47px;
+				margin:10px 10px 10px 20px;
+			}
+			
+			.logo img{
+				width:127px;
+				height:47px;
+			}
+				
+			ul#subject{
+				padding:0;			
+				display:inline-block;
+				margin:23.5px 5px;
+			}
+			
+			ul#subject li{
+				list-style:none;
+				display:inline;	
+			}
+			
+			ul#subject li a{
+				color:#F60;
+				padding:21px 4px;
+				margin-right:2px;
+				-webkit-transition: color 0.6s, background-color 0.6s;
+				transition: color 0.6s, background-color 0.6s;
+			}
+			
+			ul#subject li a:hover{
+				background-color:#F60;
+				color:white;
+			}
+			ul#subject li a.active{
+				background-color:#F60;
+				color:white;
+			}
+			
+/*ABOUT*/
+			.about-p{
+				padding:10px 25px;
+				background-color:white;
+			}
+			
+			
+			
+			#about.isi
+			
+/*NEWS & PROMO*/
+			#news img{
+				margin-bottom:50px;
+			}
+
+			#news-container{
+				list-style:none;
+				margin-top:30px;
+			}
+			
+			#news-container  li{
+				width:50%;
+				float:left;
+				display:inline-block;
+			}
+			
+			.rack{
+				width:350px;
+				border-bottom:2px solid gray;
+				margin-right:30px;
+				margin-left:45px;
+				margin-bottom:25px;
+			}
+			
+			.rack-image{
+				overflow:hidden;
+				width:125px;
+				height:97px;
+				display:inline-block;
+			}
+			
+			.rack-image img{
+				width:100%;
+				height:auto;
+			}
+			
+			.rack-desc{
+				overflow:hidden;
+				display:inline-block;
+				width:210px;
+				bottom:5px;
+			}
+			
+			.rack-desc h4{
+				padding-top:8px;
+				padding-bottom:5px;
+				height:60px;
+				margin-left:10px;
+			}
+			
+			.rack-desc  a{
+				color:black;
+			}
+			
+			.btn{
+				float:left;
+				font-size:12px;
+				background-color:#0175CA;
+				margin-left:35px;
+				
+			}
+			
+			.btn p{
+				color:white;
+				margin:0;
+				padding:5px 10px;
+			}
+			
+
+			
+/*SHOP*/
+					
+			#shop div.isi{
+				background-color:white;
+			}
+			
+			#shop h1{
+				color:white;
+				text-align:center;
+				padding-top:15px;
+				padding-bottom:15px;
+				background-color:#0175CA;
+				margin-bottom:60px;
+			}
+			
+			#shop-box{
+				margin:0 50px;
+				padding-left:100px;
+				padding-right:100px;
+				padding-bottom:;
+			}
+			
+			.shop-paket{				
+				padding-left:120px;
+				padding-right:120px;
+			}
+			
+			.shop-paket h3{
+				border-radius:5px;
+				background-color:#0175CA;
+				cursor:pointer;
+				width:180px;
+				text-align:center;
+				display:inline-block;
+				transition: box-shadow 0.5s;
+				color:white;
+			}
+			
+			.shop-paket h3:hover{
+				box-shadow:0 0 5px black;
+			}
+			
+			#pra, #pasca{
+				padding:15px 40px 15px 40px;
+				margin-left:30px;
+				margin-right:20px;
+			}
+			
+			#pra.active, #pasca.active{
+				background-color:#F60;
+			}
+			
+			.paket-pra, .paket-pasca{
+				background-color:white;
+			}
+			
+			.paket-pra h4, .paket-pra img, .paket-pra p .paket-pasca h4, .paket-pasca img, .paket-pasca p{
+				display:inline-block;
+			}
+			
+			.paket-pra h4, .paket-pasca h4{
+			text-align:center;
+			margin:0 auto;
+			width:150px;
+			color:#0175CA;
+			}
+			
+			.paket-pra img, .paket-pasca img{
+				width:200px;
+				height:200px;
+			}
+			
+			.paket-pra ul, .paket-pasca ul{
+				list-style:none;
+				margin:0 auto;
+				width:250px;
+				font-size:14px;
+				line-height:1.5em;
+			}
+			
+			
+/*CONTACT*/
+
+			#contact{
+				background-image:url("../gambar/doodles.png");
+				background-color:#00CCFF;
+			}
+			
+			#login{
+				background-image:url("../gambar/doodles.png");
+				background-color:#0175CA;
+			}
+			
+			#aktv{
+				background-image:url("../gambar/doodles.png");
+				background-color:#F60;
+			}
+			
+			#contact-box, #login-box, #aktv-box{
+				border-radius:10px;
+				background-color:rgba(0,0,0,0.4);
+				box-shadow:0 0 20px;
+			}
+
+			#contact-container, #login-container, #aktv-container{
+				padding:35px;
+				margin:0 auto;
+			}
+			
+			#contact-container h1, #login-container h1, #aktv-container h1{
+				margin-bottom:30px;
+				color:white;
+			}
+			
+			#contact-form, #login-form, #aktv-form{
+				padding-left:264px;
+				padding-right:264px;
+				padding-bottom:30px;
+			}
+			
+			#contact-form p{
+				margin:0;
+				font-weight:bold;
+				padding:9px;
+				border-radius:8px;
+				background-color:#CCFFFF;
+			}
+			
+			#login-form p{
+				margin:0;
+				font-weight:bold;
+				padding:9px;
+				border-radius:8px;
+				background-color:#0175CA;
+			}
+			
+			#aktv-form p{
+				margin:0;
+				font-weight:bold;
+				padding:9px;
+				border-radius:8px;
+				background-color:#F60;
+			}
+			
+			
+			#contact-form input, #contact-form textarea, 
+			#login-form input[type="text"],  #login-form input[type="password"], #login-form textarea,
+			#aktv-form input[type="text"],  #aktv-form input[type="password"], #aktv-form textarea{
+				padding:5px;
+				font-family:inherit;
+				font-size:12pt;
+				resize:none;
+				transition: box-shadow 0.3s, border 0.3s;
+				border-radius:8px;
+				border:black;
+			}
+			
+			#contact-form input, #login-form input[type="text"], #login-form input[type="password"]
+			#aktv-form input[type="text"], #aktv-form input[type="password"]{
+				width:250px;
+				margin-bottom:10px;
+			}
+			
+			#contact-form button{
+				background-color:#CC99FF;
+				color:white;
+				font-size:16px;
+				padding-top:5px;
+				padding-bottom:5px;
+				padding-left:10px;
+				padding-right:10px;
+				font-weight:bold;
+				border:3px solid #33CCCC;
+				border-radius:3px ;
+				transition: border 0.3s, background-color 0.3s;
+				margin-top:10px;
+				float:right;
+				cursor:pointer;
+			}
+			
+			#login-form input[type="submit"]{
+				background-color:#0175CA;
+				width:80px;
+				color:white;
+				font-size:16px;
+				padding-top:5px;
+				padding-bottom:5px;
+				padding-left:10px;
+				padding-right:10px;
+				font-weight:bold;
+				border:3px solid white;
+				border-radius:3px ;
+				transition: border 0.3s, background-color 0.3s;
+				margin-top:10px;
+				float:right;
+				cursor:pointer;
+			}
+			
+			#aktv-form input[type="submit"]{
+				background-color:#F60;
+				width:100px;
+				color:white;
+				font-size:16px;
+				padding-top:5px;
+				padding-bottom:5px;
+				padding-left:10px;
+				padding-right:10px;
+				font-weight:bold;
+				border:3px solid white;
+				border-radius:3px ;
+				transition: border 0.3s, background-color 0.3s, color 0.3s;
+				margin-top:10px;
+				float:right;
+				cursor:pointer;
+			}
+			
+			#login-form input[type="submit"]:hover{
+				background-color:#00CCFF;
+				border:3px solid black;
+			}
+			
+			#aktv-form input[type="submit"]:hover{
+				background-color:white;
+				color:black;
+				border:3px solid black;
+			}
+						
+			#contact-form button:hover{
+				background-color:#7A5C99;
+				border:3px solid white;
+			}
+			
+/*STORE*/
+
+			#store h1{
+				text-align:center;
+				color:#F60;
+				margin-bottom:60px;
+			}
+			
+			.store-hide h3{
+				padding-bottom:7px;
+				padding-top:7px;
+				padding-left:10px;
+				padding-right:10px;
+				border-bottom:1px solid gray;
+				cursor:pointer;
+			}
+			
+			.store-hide h3:hover{
+				background-color:#F60;
+			}
+			
+			.store-hide h3.selected{
+				background-color:#F60;
+			}
+			
+			.store-hide{
+				padding-left:100px;
+				padding-right:100px;
+			}
+			
+/*PAGE BOX*/
+			.container{
+				padding-top:70px;
+			}
+			
+			.isi{
+				padding-top:40px ;
+				padding-bottom:60px;
+				margin:0 auto;
+				width:870px;
+			}
+/*FOOTER*/
+			#footer{
+				clear:both;
+			}
+			
+			#footer p{
+				color:white;
+				text-align:right;
+				margin:0;
+				padding-top:5px;
+				padding-bottom:5px;
+				padding-right:30px;
+				background-color:#F60;
+			}

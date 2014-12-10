@@ -1,0 +1,77 @@
+body
+{
+font-family:Arial, sans-serif;
+background:url("../gambar/doodles.png");
+background-color :#03213b;
+}
+
+#bungkus{
+	padding:0 0 0 100px;
+}
+
+#header
+{
+padding: 100px 50px 10px 400px;
+}
+
+#kanan, #kiri{
+	display:inline-block;
+}
+
+#tengah{
+	padding-left:30px;
+	padding-right:50px;
+	display:inline-block;
+}
+
+#atas 
+{
+margin:0;
+font-size:25px;  
+text-align:center;
+font-weight:bold;
+color:black;
+display:inline-block;
+}
+
+#bawah{
+margin:10px 0 0 100px;
+font-size:25px;  
+text-align:center;	
+font-weight:bold;
+color:black;
+width:100px;
+}
+
+#kanan{
+	bottom:100px;
+	left:600px;
+}
+
+.tombol{
+	display:inline-block;
+	text-align:center;
+}
+
+.tombol a
+{
+width:200px;
+display:inline-block;
+text-decoration:none;
+color:#f60;
+padding: 15px 5px;
+background-color:rgba(0,0,0,0.3);
+border-radius:10px;
+}
+
+.tombol a:hover
+{
+	width:200px;
+	background-color:#f60;
+	color:white;
+	padding: 15px 5px;
+}
+
+
+
+
