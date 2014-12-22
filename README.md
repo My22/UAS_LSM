@@ -4,6 +4,7 @@ Kelas 3PTI2
 Kelompok LSM
 
 Link URL : www.lsm.orgfree.com
+link HOSTING: orgfree.com 
 
 login sebagai admin:
 username = admin
